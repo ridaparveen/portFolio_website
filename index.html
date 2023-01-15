@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./Rida-designstyle-smoothie-m.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi,I'm <span>Rida</span><br />
+            From Najibabad
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./rida_img.jpg-removebg-preview (1).png" class="img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Similique provident quae facilis accusamus odit laboriosam illum
+              veritatis, magni ea eos quos esse vitae molestias earum at ipsam
+              debitis iusto aperiam?
+            </p>
+            <!-- -------product info---- -->
+            <div class="tab-title">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li><span>Web Developer</span><br />Web Development</li>
+                <li><span>HTML</span><br />CSS</li>
+                <li><span>Reactjs</span><br />Javascript</li>
+                <li><span>Python</span><br />SQL</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="Experience">
+              <ul>
+                <li>
+                  <span>Aug 2021-Nov-2022</span><br />Motherson Sumi System
+                  Limited
+                </li>
+                <li>
+                  <span>Assistant Engineer</span><br />Production Engineer
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="Education">
+              <ul>
+                <li>
+                  <span>2015</span><br />High School from R.C.S Inter College
+                  Sahanpur
+                </li>
+                <li>
+                  <span>2015-2018</span><br />Diploma in Electronics and
+                  Communication Engineering from GGP Moradabad
+                </li>
+                <li>
+                  <span>2018-2021</span><br />B.Tech Electronics and
+                  communication Engineering from HIET Gaziabad
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------services------ -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-titile"> My Services</h1>
+          <div class="services-List">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h1>Web design</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maxime aliquam autem doloribus pariatur quia deserunt dolor inventore provident cum non, ad officiis veniam cupiditate quam esse excepturi facilis repudiandae et ipsam neque ab architecto.
+                <a href="#">learn more</a>
+              </p>
+            </div>
+            <div>
+              <i class="fa-sharp fa-solid fa-crop"></i>
+              <h1>UI/Design</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maxime aliquam autem doloribus pariatur quia deserunt dolor inventore provident cum non, ad officiis veniam cupiditate quam esse excepturi facilis repudiandae et ipsam neque ab architecto.
+                <a href="#">learn more</a>
+              </p>
+            </div>
+            <div>
+              <i class="fa-brands fa-app-store-ios"></i>
+              <h1>Web Development</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maxime aliquam autem doloribus pariatur quia deserunt dolor inventore provident cum non, ad officiis veniam cupiditate quam esse excepturi facilis repudiandae et ipsam neque ab architecto.
+                <a href="#">learn more</a>
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- ------Portfolio------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./rida_img.jpg.jpeg">
+            <div class="layer">
+              <h2>Sociol media app</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, provident.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./rida_img.jpg.jpeg">
+            <div class="layer">
+              <h2>Sociol media app</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, provident.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./rida_img.jpg.jpeg">
+            <div class="layer">
+              <h2>Sociol media app</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, provident.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <!-- -----------contact------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>ridaparveen679@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9643865258</p>
+            <div class="sociol-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./Rid@P@rveen.pdf" download class="btn btn2">Download CV</a>
+          </div>
+            <div class="contact-right">
+              <form>
+                <input type="text" name="Name" placeholder="your Name" required>
+                <input type="email" name="Email" placeholder="your Email" required>
+                <textarea name="Messeage"  rows="6" placeholder="your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+
+        
+        </div>
+      </div>
+      <div class="copyright">
+      <p>Lorem ipsum dolor sit, <i class="fa-solid fa-heart"></i>  Perferendis, ratione?</p>
+    </div>
+    </div>
+
+
+    <script>
+    var tablinks = document.getElementsByClassName("active-links")
+    var tabcontent = document.getElementsByClassName("tab-content")
+    function opentab(tabname) {
+        for(tablinks of tablinks){
+            tablinks.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontent){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab")
+        
+        
+    }
+
+</script>
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+   function openmenu() {
+    sidemenu.style.right = '0';
+    
+   }
+   function closemenu() {
+    sidemenu.style.right = '-200px';
+    
+   }
+</script>
+  </body>
+</html>
